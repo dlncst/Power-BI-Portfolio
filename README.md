@@ -9,6 +9,10 @@ This project uses visualizations that include Treemap, Stacked Bar Chart, Stacke
 
 After a short data cleanup there are different trends that can be identified. For example, we can see that across that across the responders, the average age is 29 years old, and the level of happiness with salary and work/life balance ranks at 4/10 and 5/10 respectively. 
 
-![visualizations1](https://github.com/user-attachments/assets/31ba05be-15d9-48d0-a318-9c63702c6a61)
+![visualizations1](https://github.com/user-attachments/assets/64a69e6c-7673-4abf-ae5f-6e2c0236a6f2)
 
-
+Among other trends, this project analyzed and modeled the following questions: 
+  1. Country Survey Taker
+  2. Average Salary by Job Title
+  3. Most Used Programming Language
+  4. Difficulty Breaking into Industry
