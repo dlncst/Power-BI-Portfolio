@@ -1,5 +1,5 @@
-# Power-BI Portfolio
-This repository contains a simple data analysis project that includes data transformation, cleaning, and visualization. Along with the README.md file you will find the the sample data used for the project as well as the outcomes.  
+# Power-BI Portfolio Summary
+This repository contains my series of Business Intelligence projects in which I worked on data transformation, cleaning, analysis and visualization. Along with the README.md file you will find the the sample data used for the project as well as the outcomes.  
 
 ## Survey: analyzing multiple variables from survey responders in the Data industry.
 
