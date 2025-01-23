@@ -13,6 +13,8 @@ Among other trends, this project analyzed and responded to the following points:
   3. Most Used Programming Language
   4. Difficulty Breaking into Industry
 
-## Project #2: responding to multiple questions on about students scores and personal hobbies datasets.
+## Project #2: analyzing to multiple factors about students scores and personal interests. 
 
 ![project 2](https://github.com/user-attachments/assets/6d8813c6-838a-4acf-a707-a80d66a754fc)
+
+This project analizes the relational datasets 'StudentTestingData' and 'StudentData'. After a data cleansing there are different trends that can be identified. For example, we can see , the average age is 29 years old, and the level of happiness with salary and work/life balance ranks at 4/10 and 5/10 respectively. 
