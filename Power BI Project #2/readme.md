@@ -1,5 +1,7 @@
 # Power-BI Project #2
-This folder contains my second project of the Business Intelligence Power BI series. This project includes a more in depth data cleaning, transformation and visualization. Within this folder you will find the dataset used, StudentData.csv that contains the data of students and StudentTestingData that contains the scores for math and reading subjects. 
+This project includes a more in depth data cleaning, transformation and visualization. Within this folder you will find the dataset used, StudentData.csv that contains the data of students and StudentTestingData that contains the scores for math and reading subjects. 
+
+![project 2](https://github.com/user-attachments/assets/d14bc69e-ef08-4e28-a210-89c2764a3e89)
 
 This project followed the structure below:
 1. Data discovery:
@@ -26,18 +28,18 @@ Why having a structured data model and using POWER BI (mainly start vs snowflake
 In the making of this project I achieved the following: 
 - Connect to a cloud data source (github) and load the data
 - Power query/data transformation: replace values blank to null, fill, sample columns (to merge columns etc), renaming
--Visual with stacked bar chart for TestScores
--Visual with stacked column chart for Students
--Created relationship (model view) for TestScores and Students (studentid and student number)
--Created hierarchies (grouping information into smaller levels of granularity) and grouping columns into folders 
--Created matrix table
--Create DAX for TestScores
--Visual edits: labels, titles, gridlines, x and y axis, change defaults from sum to averages, etc.
--Customized themes 
--Actionable buttons, images
--Conditional formatting 
--Text filter function
--Added QA AI feature
--Set up pages>tooltip for charts tooltips
--Share to Power BI service and publish to myworkspace powerbi.con
--Scheduled data auto refresh
+- Visual with stacked bar chart for TestScores
+- Visual with stacked column chart for Students
+- Created relationship (model view) for TestScores and Students (studentid and student number)
+- Created hierarchies (grouping information into smaller levels of granularity) and grouping columns into folders 
+- Created matrix table
+- Create DAX for TestScores
+- Visual edits: labels, titles, gridlines, x and y axis, change defaults from sum to averages, etc.
+- Customized themes 
+- Actionable buttons, images
+- Conditional formatting 
+- Text filter function
+- Added QA AI feature
+- Set up pages>tooltip for charts tooltips
+- Share to Power BI service and publish to myworkspace powerbi.con
+- Scheduled data auto refresh
