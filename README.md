@@ -24,5 +24,4 @@ This project analized the datasets 'StudentTestingData' and 'StudentData'. Durin
 
 ## Project #3 advanced: analyzing and reporting on AdventureWorks company datasets for revenue trending, customer behavior, KPI's, etc. 
 
-![summary](https://github.com/user-attachments/assets/cde6e2d5-9a28-482d-82c9-87bbac298dfa)
-
+![summary](https://github.com/user-attachments/assets/e4bac53e-5ba1-4c6b-99ec-add38072fef7)
