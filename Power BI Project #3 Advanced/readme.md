@@ -1,9 +1,6 @@
 # Power-BI Project #2
 This project includes a complete data transformation using the Power Query Editor, data models are configured and set up in the Model View (relationships). Table features and calculatios are added in the Data View and finally, visuals and reports are designed in the Report View. 
 
-## Final Report View 
-![summary](https://github.com/user-attachments/assets/e2d911b2-407f-489f-a055-769473d29a4d)
-
 ## Loading and Transforming Data
 For this project I used the AdventureWorks* datasets that include raw data (Product Categories, Returns Data, Customer Lookup, Calendar Lookup, etc.) and sales data (sales data from 2020 to 2022). All these datasets are imported and loaded into this project as text/csv files.
 
@@ -34,4 +31,6 @@ Decomposition Tree Tab
 Key Influencers Tab 
 ![key influencers tab](https://github.com/user-attachments/assets/e3a235b5-6032-4585-aff3-112639765696)
 
+## Final Report View
+![summary](https://github.com/user-attachments/assets/e2d911b2-407f-489f-a055-769473d29a4d)
 
