@@ -12,23 +12,28 @@ In order to have a general idea of what the composition of the columns is I used
 ![transform data](https://github.com/user-attachments/assets/c9adb5d1-a5f4-40e4-9c88-d8b854926eef)
 
 
-Setting up relationships
+## Setting up relationships
+Creating a data model means to connect tables via relationships based on a common column field (for example ProductKey or Customer ID). For this project I used a start schema to create relationships between the Sales/Returns Tables and the Calendar, Customer, Product and Territories tables. On the other hand, all product tables (Product, Subcategory, and Category were related in a snowflake schema. For this data model I used only one active relationship between tables to avoid data redundany. In addition, all these single relationships are filtered in a 1:* (one instance of each primary key to many instances of each foreign key) cardinality. 
+
+In this project, there are two fact tables: Sales and Return tables. This means that Calendar, Customer, and Product tables are dimensional and server as the connection between Sales and Returns. 
+
+As part of the data model for this project two hierarchies were created. The first being a geopraphy hierarchy that includes Continent, Country, State and City, and a second hierarchy that include Start of Year, Start of Month, Start of Week, Date. These two hierarchies will be used to filter and drill speficic location and date points were transactions and returns took place. Addionatlly, these will be helpful to identify product sales and returns trends across different geographical zones and data time specific throughout the year, as well using filter context to look at data.  
 
 ![Setting up relationships](https://github.com/user-attachments/assets/ed88ac7e-b9a3-475d-b33f-9b3eafc69508)
 
-Map Tab
+## Map Tab
 ![map tab](https://github.com/user-attachments/assets/c229b8d7-96ff-45d1-a393-99712907fcd6)
 
-Product Tab 
+## Product Tab 
 ![product detail tab](https://github.com/user-attachments/assets/9a4a2d8d-cd02-4e24-ac2a-b241f6e1db16)
 
-Customer Detail Tab
+## Customer Detail Tab
 ![customer detail tab](https://github.com/user-attachments/assets/33d6e8b0-64f4-4a8f-adec-4f2d572ceabc)
 
-Decomposition Tree Tab
+## Decomposition Tree Tab
 ![decomposition tree tab](https://github.com/user-attachments/assets/e6a02c96-e644-4f12-bb02-9f1f474aa555)
 
-Key Influencers Tab 
+## Key Influencers Tab 
 ![key influencers tab](https://github.com/user-attachments/assets/e3a235b5-6032-4585-aff3-112639765696)
 
 ## Final Report View
