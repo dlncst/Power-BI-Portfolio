@@ -4,7 +4,7 @@ This project includes a complete data transformation using the Power Query Edito
 ## Loading and Transforming Data
 For this project I used the AdventureWorks* datasets that include raw data (Product Categories, Returns Data, Customer Lookup, Calendar Lookup, etc.) and sales data (sales data from 2020 to 2022). All these datasets are imported and loaded into this project as text/csv files.
 
-Using the Power Query Editor I made several changes to the data that included some best practice steps and some more detail transformation to reduce data redundancy and in other cases to isolate columns to be used into the data model. Note that not all steps of the data transformation process are here but rather a summary of what was done with the data. 
+Using the Power Query Editor I made several changes to the data that included some best practice steps and some more detailed transformation to reduce data redundancy and in other cases to isolate columns to be used into the data model. Note that not all steps of the data transformation process are here but rather a summary of what was done with the data. 
 
 In the data transformation process all the table names were updated to improve readability and follow a single naming convention. In addition, all column hearders were confirmed to be correct and all data types were matched according to the column data type. News columns were added, for example the new column SKU Type to extract all characters before the dash from the Product SKU column. In the Product Style column all zeros (0) were replaced with 'NA'. 
 
@@ -17,11 +17,11 @@ Creating a data model means to connect tables via relationships based on a commo
 
 In this project, there are two fact tables: Sales and Return tables. This means that Calendar, Customer, and Product tables are dimensional and server as the connection between Sales and Returns. 
 
-As part of the data model for this project two hierarchies were created. The first being a geopraphy hierarchy that includes Continent, Country, State and City, and a second hierarchy that include Start of Year, Start of Month, Start of Week, Date. These two hierarchies will be used to filter and drill speficic location and date points were transactions and returns took place. Addionatlly, these will be helpful to identify product sales and returns trends across different geographical zones and data time specific throughout the year, as well using filter context to look at data.  
+As part of the data model two hierarchies were created. The first being a geopraphy hierarchy that includes Continent, Country, State and City, and a second hierarchy that include Start of Year, Start of Month, Start of Week, Date. These two hierarchies will be used to filter and drill speficic location and date points were transactions and returns took place. Addionatlly, these will be helpful to identify product sales and returns trends across different geographical zones and data time specific throughout the year, as well using filter context to look at data.  
 
 ![Setting up relationships](https://github.com/user-attachments/assets/ed88ac7e-b9a3-475d-b33f-9b3eafc69508)
 
-Some of the DAX measures used for this project:
+Some of the DAX measures used:
 All Returns: calculates the total number of returns regarless of filter context
 All Returns = 
 CALCULATE(
@@ -48,7 +48,15 @@ SUMX(
     )
 )
 
-*There are over 30 DAX formulas in this project so only these example were described. To see all of them open the Final Project BI-AW.pbix file in this repository. 
+*There are over 30 DAX formulas so only these example were described. To see all of them open the Final Project BI-AW.pbix file in this repository. 
+
+## Report View
+To construct the report view and visual elements of this report I worked on seven different tabs which I will describe in order. Starting from the Executive Dashboard, this tab highlights the most important facts of the data model and trends discovered by using the DAX formulas. In a snapshot, on the top of the tab there are four cards showing the Total Revenue, Profit, Orders, and Return Rate across the entire dataset from January 2020 to January 2022. 
+
+![summary](https://github.com/user-attachments/assets/e2d911b2-407f-489f-a055-769473d29a4d)
+
+
+
 ## Map Tab
 ![map tab](https://github.com/user-attachments/assets/c229b8d7-96ff-45d1-a393-99712907fcd6)
 
@@ -64,6 +72,5 @@ SUMX(
 ## Key Influencers Tab 
 ![key influencers tab](https://github.com/user-attachments/assets/e3a235b5-6032-4585-aff3-112639765696)
 
-## Final Report View
-![summary](https://github.com/user-attachments/assets/e2d911b2-407f-489f-a055-769473d29a4d)
+
 
