@@ -21,6 +21,34 @@ As part of the data model for this project two hierarchies were created. The fir
 
 ![Setting up relationships](https://github.com/user-attachments/assets/ed88ac7e-b9a3-475d-b33f-9b3eafc69508)
 
+Some of the DAX measures used for this project:
+All Returns: calculates the total number of returns regarless of filter context
+All Returns = 
+CALCULATE(
+    [Total Returns],
+    ALL(
+        'Returns Data'
+    )
+)
+
+% of All Returns: divides Total Returns by All Returns
+% of All Orders = 
+DIVIDE(
+    [Total Orders],
+    [All Orders]
+)
+
+Total Cost= multiplies order quantities in the Sales Data table by the product cost in the Product Lookup table, then calculates the sum
+Total Cost = 
+SUMX(
+    'Sales Data',
+    'Sales Data'[OrderQuantity] *
+    RELATED(
+        'Product Lookup'[ProductCost]
+    )
+)
+
+*There are over 30 DAX formulas in this project so only these example were described. To see all of them open the Final Project BI-AW.pbix file in this repository. 
 ## Map Tab
 ![map tab](https://github.com/user-attachments/assets/c229b8d7-96ff-45d1-a393-99712907fcd6)
 
