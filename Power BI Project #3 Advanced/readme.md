@@ -78,5 +78,5 @@ For this section the decomposition tree visual is used to better understand the 
 In this last section of the report the Key Influencers are used to help understand the factors that drive specific metrics or outcomes. Note that this type of visual is an Artificial Intelligence feature, although it is not entirely relevant to this report itself these key influencers analyze categorical or continious outcomes and identify segments based on a combination of factors which can be used to target specific customer segments and strategize marketing/production efforts. 
 ![key influencers tab](https://github.com/user-attachments/assets/e3a235b5-6032-4585-aff3-112639765696)
 
-
+*Credits: The datasets used for this project were obtained from the course Microsoft Power BI Desktop for Business Intelligence by the Maven Analytics platform on Udemy. 
 
