@@ -67,12 +67,15 @@ In this tab you will find a line chart and an area chart. The first one compares
 ![product detail tab](https://github.com/user-attachments/assets/9a4a2d8d-cd02-4e24-ac2a-b241f6e1db16)
 
 ## Customer Detail Tab
+To describe the Total Customer and Revenue Per Customer the line chart contains a date range with four level of granularity that are Start of Year, Start of Month, Start of Week, and Day. With the different levels of granularity it is possible to drill down to specific data points on the line as well as drilling up to higher periods of time. The Top 1oo Customers table summarizes the N top 100 customer IDs with the highest revenue for the company. In addition, by selecting a customer row the chart will filter other visuals in the section to show the Revenue per Customer and the number of Orders from that selected customer. 
 ![customer detail tab](https://github.com/user-attachments/assets/33d6e8b0-64f4-4a8f-adec-4f2d572ceabc)
 
 ## Decomposition Tree Tab
+For this section the decomposition tree visual is used to better understand the distribution of Total Orders for the entire period of the dataset. From the Total Orders the decomposition tree breaks down into category names (Accessories, Bikes, Clothing) and continues to break down into more detailed categories that are Subcategory Name and Product Name. To better understand this visual, see that from the 25,164 Total Orders only 16,983 correspond to Accessories which breaks down to Subcategory Names (Tires and Tubes: 9084, Helmets: 8034, Bottles and Cages: 4485, etc). 
 ![decomposition tree tab](https://github.com/user-attachments/assets/e6a02c96-e644-4f12-bb02-9f1f474aa555)
 
 ## Key Influencers Tab 
+In this last section of the report the Key Influencers are used to help understand the factors that drive specific metrics or outcomes. Note that this type of visual is an Artificial Intelligence feature, although it is not entirely relevant to this report itself these key influencers analyze categorical or continious outcomes and identify segments based on a combination of factors which can be used to target specific customer segments and strategize marketing/production efforts. 
 ![key influencers tab](https://github.com/user-attachments/assets/e3a235b5-6032-4585-aff3-112639765696)
 
 
