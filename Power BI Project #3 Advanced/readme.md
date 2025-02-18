@@ -53,14 +53,17 @@ SUMX(
 ## Report View
 To construct the report view and visual elements of this report I worked on seven different tabs which I will describe in order. Starting from the Executive Dashboard, this tab highlights the most important facts of the data model and trends discovered by using the DAX formulas. In a snapshot, on the top of the tab there are four cards showing the Total Revenue, Profit, Orders, and Return Rate across the entire dataset from January 2020 to January 2022. 
 
+In addition to these cards, the Executive Dashboard tab includes other visuals elements being a line chart to display the Revenue Trending from January 2020 to January 2022 and it includes a slider filter to change the date range to be shown on the chart. The Clustered bar chart is used to shows the number of Orders by Category (Accessories, Bikes, Clothing), this bar chart is related to all the other visuals in the tab meaning that it will filter the Revenue Trending, Cards, Top 10 Products and the other information based on the category filter that is selected. The Top 10 Products Matrix will also filter the selected product to display the information in the information Cards that are at the top and at the button of the tab. 
+
 ![summary](https://github.com/user-attachments/assets/e2d911b2-407f-489f-a055-769473d29a4d)
 
-
-
 ## Map Tab
+This tab contains two visual elements that are a Treemap and an interactive selection map that filters the continent/region to show the total number of orders for that area. 
+
 ![map tab](https://github.com/user-attachments/assets/c229b8d7-96ff-45d1-a393-99712907fcd6)
 
-## Product Tab 
+## Product Detail Tab 
+In this tab you will find a line chart and an area chart. The first one compares the Total Profit and Adjusted Profit (adjusted profit based on the filter to the left of the chart). The second chart (area chart) reflects the trending filtered by the Product Metric Selection (Orders, Revenue, Profit, Returns, Return %). In addition, this section of the report contains three gauge visuals to illustrate comparison between actual monthly orders, revenue, profit, and their targets. 
 ![product detail tab](https://github.com/user-attachments/assets/9a4a2d8d-cd02-4e24-ac2a-b241f6e1db16)
 
 ## Customer Detail Tab
