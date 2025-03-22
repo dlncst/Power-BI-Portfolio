@@ -1,4 +1,4 @@
-# Power-BI Project #2
+# Power-BI Project #3 AdventureWorks
 This project includes a complete data transformation using the Power Query Editor, data models are configured and set up in the Model View (relationships). Table features and calculatios are added in the Data View and finally, visuals and reports are designed in the Report View. 
 
 ## Loading and Transforming Data
