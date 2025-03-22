@@ -4,8 +4,8 @@ This project focuses on analyzing survey responses from professionals in the dat
 
 Repository Contents:
 
-**Project #1 Surveys.pbix:** The Power BI report file containing all visualizations and analyses.  ​
-**sample_data.xlsx:** The dataset used for analysis, comprising survey responses.  ​
+**Project #1 Surveys.pbix:** The Power BI report file containing all visualizations and analyses.  
+**sample_data.xlsx:** The dataset used for analysis, comprising survey responses.  
 **readme.md:** Detailed documentation of the project, including methodology and findings.
 
 ![dataset](https://github.com/user-attachments/assets/1bc7d2dd-b97e-42c6-a01c-dfc7fa204e1e)
