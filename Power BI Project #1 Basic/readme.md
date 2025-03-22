@@ -1,10 +1,12 @@
-# Project #1 Analyzing Survey Responses 
+# Project #1 Analyzing Survey Responses From Professional Working in the Data Industry
 
-This repository contains my series of Business Intelligence projects in which I worked on data transformation, cleaning, analysis and visualization. Along with the README.md file you will find the the sample data used for the project as well as the outcomes.  
+This project focuses on analyzing survey responses from professionals in the data industry. The analysis utilizes various visualizations, including Treemaps, Stacked Bar Charts, Stacked Column Charts, Donut Charts, Gauges, and information Cards, to uncover insights into factors affecting these professionals. The dataset, 'sample_data.xlsx,' compiles responses into a structured format. After a brief data cleanup, trends emerge, such as an average respondent age of 29 years and insights into their satisfaction with salary and work-life balance.
 
-## Survey: analyzing multiple variables from survey responders in the Data industry.
+Repository Contents:
 
-This project uses visualizations that include Treemap, Stacked Bar Chart, Stacked Column Chart, Donut Charts, Gauges, and information Cards that provide insights about relationships that affect survey responders that work within the data industry. The dataset 'sample_data.xlsx' combines responses into a structured spreadsheet. 
+**Project #1 Surveys.pbix:** The Power BI report file containing all visualizations and analyses.​
+**sample_data.xlsx:** The dataset used for analysis, comprising survey responses.​
+**readme.md:** Detailed documentation of the project, including methodology and findings.
 
 ![dataset](https://github.com/user-attachments/assets/1bc7d2dd-b97e-42c6-a01c-dfc7fa204e1e)
 
@@ -17,3 +19,5 @@ Among other trends, this project analyzed and modeled the following questions:
   2. Average Salary by Job Title
   3. Most Used Programming Language
   4. Difficulty Breaking into Industry
+
+This project demonstrates proficiency in data transformation, cleaning, analysis, and visualization using Power BI, offering valuable insights into the data industry's workforce.
