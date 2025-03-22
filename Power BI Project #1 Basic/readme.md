@@ -1,4 +1,4 @@
-# Project #1 Analyzing Survey Responses From Professional Working in the Data Industry
+# Project #1 Analyzing Survey Responses From Professionals Working in the Data Industry
 
 This project focuses on analyzing survey responses from professionals in the data industry. The analysis utilizes various visualizations, including Treemaps, Stacked Bar Charts, Stacked Column Charts, Donut Charts, Gauges, and information Cards, to uncover insights into factors affecting these professionals. The dataset, 'sample_data.xlsx,' compiles responses into a structured format. After a brief data cleanup, trends emerge, such as an average respondent age of 29 years and insights into their satisfaction with salary and work-life balance.
 
